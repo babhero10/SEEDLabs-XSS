@@ -8,12 +8,6 @@ This script is strictly intended for **educational purposes only**, as part of a
 
 The authors and contributors to this repository are not liable for any misuse of this script, and it is the responsibility of the user to ensure compliance with all applicable laws and regulations.
 
-**Usage Instructions**
-
-[Detailed instructions on how to use this file here - including a link to the deployed url]
-
 **License**
 
 This project is released under the **MIT License**. See the `LICENSE` file for the full text of the license. In summary, you are free to use this software for any purpose, including commercial use, under certain conditions. Please be aware that the license is not a license to use this script for purposes other than what it is intended for.
-
-**Contributing**
